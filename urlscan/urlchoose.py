@@ -118,6 +118,8 @@ class URLChooser:
                      'ctrl l': self._clear_screen,
                      'ctrl f': self._page_down,
                      'ctrl b': self._page_up,
+                     'ctrl v': self._page_down,
+                     'meta v': self._page_up,
                      'd': self._del_url,
                      'f1': self._help_menu,
                      'G': self._bottom,
